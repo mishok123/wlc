@@ -1,0 +1,45 @@
+FIELD: cryptocurrency
+GLOBAL SCORES:
+
+CATEGORY: Mixers PIVOT SCORES:
+{"Per Coin": {"privacy": 0, "reputation": 50}}
+-------
+FIELD: privacy_kyc
+GLOBAL SCORES:
+Array
+(
+    [KYC Information 1] => Array
+        (
+            [privacy] => 35
+            [reputation] => 0
+        )
+
+    [KYC Information 2] => Array
+        (
+            [privacy] => 10
+            [reputation] => 0
+        )
+
+    [KYC Information 3] => Array
+        (
+            [privacy] => 0
+            [reputation] => 0
+        )
+
+    [KYC Information 0 (Guaranteed No KYC)] => Array
+        (
+            [privacy] => 100
+            [reputation] => 0
+        )
+
+)
+
+CATEGORY: Mixers PIVOT SCORES:
+{"KYC Information 1": {"privacy": 35, "reputation": 0}, "KYC Information 2": {"privacy": 10, "reputation": 0}, "KYC Information 3": {"privacy": 0, "reputation": 0}, "KYC Information 0 (Guaranteed No KYC)": {"privacy": 100, "reputation": 0}}
+-------
+FIELD: supported_coin
+GLOBAL SCORES:
+
+CATEGORY: Mixers PIVOT SCORES:
+
+-------

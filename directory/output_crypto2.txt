@@ -1,0 +1,1 @@
+[{"key":"supported_coin","val":"gjh,jkk"},{"key":"supported_coin","val":"sss,tyhg,gm,tj,tyj"},{"key":"supported_coin","val":"BTC,ETH,SOL"},{"key":"supported_coin","val":"BTC,GTC,KIY,MYT,LUT,FDE"},{"key":"supported_coin","val":"erw,wsd,ddd"}]

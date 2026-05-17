@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Exchanges (CEX \/ DEX)",
+        "slug": "exchanges",
+        "field_count": 24
+    },
+    {
+        "id": 2,
+        "name": "Mixers",
+        "slug": "mixers",
+        "field_count": 21
+    },
+    {
+        "id": 3,
+        "name": "Wallets",
+        "slug": "wallets",
+        "field_count": 21
+    },
+    {
+        "id": 4,
+        "name": "Casinos & Sportsbooks",
+        "slug": "casinos-sportsbooks",
+        "field_count": 19
+    },
+    {
+        "id": 5,
+        "name": "Cards & Payment Services",
+        "slug": "cards-payments",
+        "field_count": 21
+    },
+    {
+        "id": 6,
+        "name": "DeFi Protocols",
+        "slug": "defi",
+        "field_count": 0
+    },
+    {
+        "id": 7,
+        "name": "NFT Marketplaces",
+        "slug": "nft-marketplaces",
+        "field_count": 0
+    },
+    {
+        "id": 8,
+        "name": "Analytics & Tools",
+        "slug": "analytics-tools",
+        "field_count": 0
+    },
+    {
+        "id": 9,
+        "name": "Trading Bots",
+        "slug": "trading-bots",
+        "field_count": 0
+    },
+    {
+        "id": 10,
+        "name": "Launchpads",
+        "slug": "launchpads",
+        "field_count": 0
+    },
+    {
+        "id": 11,
+        "name": "Other",
+        "slug": "other",
+        "field_count": 0
+    },
+    {
+        "id": 12,
+        "name": "CEX",
+        "slug": "cex",
+        "field_count": 18
+    },
+    {
+        "id": 13,
+        "name": "DEX",
+        "slug": "dex",
+        "field_count": 20
+    },
+    {
+        "id": 14,
+        "name": "Instant Exchange and aggregator",
+        "slug": "instant-exchange",
+        "field_count": 22
+    },
+    {
+        "id": 15,
+        "name": "Sportsbook",
+        "slug": "sportsbook",
+        "field_count": 19
+    },
+    {
+        "id": 16,
+        "name": "Casino",
+        "slug": "casino",
+        "field_count": 19
+    },
+    {
+        "id": 17,
+        "name": "Merchant",
+        "slug": "merchant",
+        "field_count": 19
+    },
+    {
+        "id": 18,
+        "name": "Crypto Cards",
+        "slug": "crypto-cards",
+        "field_count": 21
+    }
+]

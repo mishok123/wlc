@@ -1,0 +1,31 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::table('projects', function (Blueprint $table) {
+            $table->string('contact_email')->nullable();
+            $table->string('contact_telegram')->nullable();
+            $table->string('contact_discord')->nullable();
+            $table->string('contact_simplex')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::table('projects', function (Blueprint $table) {
+            $table->dropColumn(['contact_email', 'contact_telegram', 'contact_discord', 'contact_simplex']);
+        });
+    }
+};

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ / [L,R=301]
+
+    # Handle user access to the forum directly
+    RewriteCond %{REQUEST_URI} ^/forum
+    RewriteRule ^forum/(.*)$ forum/$1 [L]
+
+    # Send everything else to Laravel's public directory
+    RewriteCond %{REQUEST_URI} !^/directory/public/
+    RewriteRule ^(.*)$ /directory/public/$1 [L]
+</IfModule>

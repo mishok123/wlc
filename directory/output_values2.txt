@@ -1,0 +1,2 @@
+privacy_kyc: ["Privacy KYC 2","KYC Information 1","KYC Information 0 (Guaranteed No KYC)","KYC Information 2","KYC Information 3","Privacy KYC 0 (Guaranteed No KYC)"]
+cryptocurrency: []
